@@ -33,15 +33,4 @@ function replaceNodeKeys(node: Node, keyMap: KeyMap): Node {
   return newNode;
 }
 
-const tree: Tree = {
-  id: "root",
-  name: "Root Node",
-  children: [
-    {
-      id: "1",
-      name: "2",
-    },
-  ],
-};
-
 export { replaceTreeKeys };
